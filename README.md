@@ -32,9 +32,9 @@ Ejemplos:
 - Uso del store dentro de un composable function
 - Realizar commits de mutaciones
 - Trabajar con Slots
--- Named slots
--- Scoped slots
--- Default slot
+  - Named slots
+  - Scoped slots
+  - Default slot
 - Creación de modal sin paquetes de terceros
 
 
