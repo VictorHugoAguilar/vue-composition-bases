@@ -21,7 +21,7 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "about" */ "../views/Counter.vue"),
+        component: () => import(/* webpackChunkName: "Counter" */ "../views/Counter.vue"),
     },
     {
         path: "/users",
@@ -29,7 +29,7 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "about" */ "../views/Users.vue"),
+        component: () => import(/* webpackChunkName: "Users" */ "../views/Users.vue"),
     },
     {
         path: "/pokemon-search",
@@ -37,7 +37,8 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "about" */ "../views/SearchPokemon.vue"),
+        component: () =>
+            import(/* webpackChunkName: "SearchPokemon" */ "../views/SearchPokemon.vue"),
     },
     {
         path: "/pokemon/:id",
@@ -45,7 +46,23 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "about" */ "../views/Pokemon.vue"),
+        component: () => import(/* webpackChunkName: "Pokemon" */ "../views/Pokemon.vue"),
+    },
+    {
+        path: "/todo",
+        name: "todo",
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "TodoVuex" */ "../views/TodoVuex.vue"),
+    },
+    {
+        path: "/slots",
+        name: "slots",
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "CustomSlots" */ "../views/CustomSlots.vue"),
     },
 ];
 

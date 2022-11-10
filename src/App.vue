@@ -5,7 +5,11 @@
     <router-link :to="{ name: 'about' }">About</router-link> |
     <router-link :to="{ name: 'counter' }">Counter</router-link> |
     <router-link :to="{ name: 'users' }">Users</router-link> |
-    <router-link :to="{ name: 'pokemon-search' }">Search Pokemon </router-link>
+    <router-link :to="{ name: 'pokemon-search' }">Search Pokemon </router-link> |
+    <router-link :to="{ name: 'todo' }">TODO </router-link> |
+    <router-link :to="{ name: 'slots' }">Slots </router-link>
+
+
   </nav>
 
   <router-view v-slot="{ Component, route }">
