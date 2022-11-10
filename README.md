@@ -12,7 +12,7 @@ Aqui tenemos ejemplos puntuales sobre la utilización del composition API,
 - Named Slots
 - Scoped Slots (envio de objetos y devolución del mismo)
 
-Ejemplos:
+Temas que se pueden observar:
 
 - Objectos reactivos
 - Ref vs Reactive
